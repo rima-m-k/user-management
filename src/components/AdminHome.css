@@ -1,0 +1,21 @@
+.Add--User{
+display: flex;
+justify-content: center;
+margin-bottom: 2px;
+}
+.User--table {
+    box-shadow: 2px;
+    padding: 5px;
+border-radius: 3px; 
+margin: auto;   /* "shadow p-5 rounded" */
+}
+.form-control{
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    width: 94%;
+    border: 0;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 6px;
+}

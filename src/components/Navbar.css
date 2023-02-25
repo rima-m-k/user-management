@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .navigation--bar {
+    background: #9cbabc;
+    padding: 1em 0;
+  }
+  .nav__list{
+    padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav__item{
+  margin: 0 auto;
+
+
+}
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav__link:hover {
+    opacity: 0.75;
+  }

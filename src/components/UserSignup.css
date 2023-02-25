@@ -1,0 +1,55 @@
+.form--data {
+    font-family: 'Roboto', sans-serif;
+
+    max-width: max-content;
+    max-height: max-content;
+    margin:auto ;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: left;
+    background-color: rgba(230, 225, 225, 0.7);
+    border-radius: 20px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    width: 94%;
+    border: 0;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 6px;
+}
+form button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #2d3236;
+    width: 40%;
+    border: 0;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  form button:hover,
+  form button:active,
+  form button:focus {
+    background-color: #2D3242;
+  }
+  .form--link{
+    text-align: none;
+  }
+  .heading{
+    padding-bottom: 1rem;
+  }
+  .error {
+    color: red;
+  }
